@@ -25,25 +25,25 @@ This workflow **requires** the original [OpenAI Workflow](https://github.com/alf
 3. Ensure the original OpenAI Workflow is installed and functioning correctly.
 4. Edit the workflow in Alfred to add your custom inputs. Here's an example format:
 
-![[Workflow/images/alfred-workflow-example.png]]
+![Workflow/images/alfred-workflow-example.png](Workflow/images/alfred-workflow-example.png)
 
 ## 📖 Usage Example: Querying VIM Commands
 
 I often find myself needing to quickly look up VIM commands. The challenge is that sometimes I either don’t know or can’t recall what I need to search for, or I may need to chain multiple commands together. To address this, I’ve created a custom prompt with a tailored trigger that accepts natural language and integrates seamlessly into the original workflow.
 
-![[Workflow/images/alfred-workflow-vim-example.png]]
+![Workflow/images/alfred-workflow-vim-example.png](Workflow/images/alfred-workflow-vim-example.png)
 
 ### Trigger
 
 In this example, I modified the keyword trigger to use "vim" and added helpful text that will display in Alfred. Additionally, I updated the workflow icon to make it visually distinct and easier to identify at a glance. A screenshot below highlights these changes for reference.
 
-![[Workflow/images/workflow-example-vim-trigger.png]]
+![Workflow/images/workflow-example-vim-trigger.png](Workflow/images/workflow-example-vim-trigger.png)
 
 ### Custom Input
 
 Here’s the custom initial instruction I use for this workflow:
 
-![[Workflow/images/wokflow-vim-example-input.png]]
+![Workflow/images/wokflow-vim-example-input.png](Workflow/images/wokflow-vim-example-input.png)
 
 ```text
 I want to query Vim commands using natural language. Please provide me with the following:
@@ -61,11 +61,11 @@ For example:
 
 Now, I can simply use it with my custom keyword and it is going to apply the initial instruction to all prompts in this workflow.
 
-![[Workflow/images/workflow-vim-example-usage.png]]
+![Workflow/images/workflow-vim-example-usage.png](Workflow/images/workflow-vim-example-usage.png)
 
 Here's the output:
 
-![[Workflow/images/workflow-vim-example-output.png]]
+![Workflow/images/workflow-vim-example-output.png](Workflow/images/workflow-vim-example-output.png)
 
 ---
 
